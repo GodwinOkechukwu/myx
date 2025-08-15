@@ -1,4 +1,43 @@
 @import "tailwindcss";
+/* Dark theme for react-calendar */
+.react-calendar {
+  background-color: #000 !important;
+  border: none !important;
+  color: white !important;
+}
+
+.react-calendar__navigation {
+  background-color: #000 !important;
+}
+
+.react-calendar__navigation button {
+  color: white !important;
+}
+
+.react-calendar__month-view__weekdays {
+  color: white !important;
+}
+
+.react-calendar__tile {
+  background: transparent !important;
+  color: white !important;
+}
+
+.react-calendar__tile--now {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 6px;
+}
+
+.react-calendar__tile--active {
+  background: #2563eb !important; /* Blue highlight */
+  color: white !important;
+  border-radius: 6px;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
